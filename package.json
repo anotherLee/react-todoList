@@ -2,7 +2,7 @@
   "name": "study",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://liyue2.github.io/react-todoList/build",
+  "homepage": "http://liyue2.github.io/react-todoList",
   "dependencies": {
     "classnames": "^2.2.5",
     "normalize.css": "^7.0.0",
