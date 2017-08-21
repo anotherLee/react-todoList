@@ -1,0 +1,42 @@
+.App {
+  position:relative;
+  color:#333;
+  border:1px solid #aaa;
+  border-radius:4px;
+  background:white;
+  margin:3em 0;
+  padding:0 1em;
+  min-width:40em;
+  box-shadow: 0 0 1em hsla(0,0%,0%,0.15);
+}
+
+.App > h1{
+  text-align: center;
+  font-family: "PingFang SC",sans-serif;
+  color:#EFD5D5;
+}
+
+.App > .todoList >li:nth-child(odd) {
+  background:#eee;
+}
+
+.App > .todoList >li:nth-child(even) {
+  background:transparent;
+}
+
+.App > .counts{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  bottom:5em;
+  font-size:14px;
+}
+
+.App > .counts > .child{
+  display:inline-block;
+  padding:5px;
+  border:1px solid #EFD5D5;
+  border-radius:4px;
+  margin-right:10px;
+  cursor:pointer;
+}

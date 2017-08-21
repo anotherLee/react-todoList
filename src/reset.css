@@ -1,0 +1,5 @@
+*{ box-sizing:border-box; margin:0; padding:0; }
+*::after, *::before{ box-sizing: border-box; margin:0; padding:0; }
+h1, h2, h3{ font-weight:normal; }
+a{ text-decoration: none; color:inherit; }
+ol, ul, dl{ list-style: none; }
